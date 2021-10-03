@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6C362D802705B578006BE4E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C362D7F2705B578006BE4E2 /* AppDelegate.swift */; };
-		6C362D822705B578006BE4E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C362D812705B578006BE4E2 /* SceneDelegate.swift */; };
-		6C362D842705B578006BE4E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C362D832705B578006BE4E2 /* ViewController.swift */; };
-		6C362D872705B578006BE4E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C362D852705B578006BE4E2 /* Main.storyboard */; };
-		6C362D892705B57A006BE4E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C362D882705B57A006BE4E2 /* Assets.xcassets */; };
-		6C362D8C2705B57A006BE4E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C362D8A2705B57A006BE4E2 /* LaunchScreen.storyboard */; };
-		6C362D952705DD75006BE4E2 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C362D942705DD75006BE4E2 /* Concentration.swift */; };
-		6C362D972705E2AB006BE4E2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C362D962705E2AB006BE4E2 /* Card.swift */; };
+		6C826E72270A486D003EA6B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C826E71270A486D003EA6B8 /* AppDelegate.swift */; };
+		6C826E74270A486D003EA6B8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C826E73270A486D003EA6B8 /* SceneDelegate.swift */; };
+		6C826E76270A486D003EA6B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C826E75270A486D003EA6B8 /* ViewController.swift */; };
+		6C826E79270A486D003EA6B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C826E77270A486D003EA6B8 /* Main.storyboard */; };
+		6C826E7B270A486E003EA6B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C826E7A270A486E003EA6B8 /* Assets.xcassets */; };
+		6C826E7E270A486E003EA6B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C826E7C270A486E003EA6B8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6C362D7C2705B578006BE4E2 /* StanfordApp1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StanfordApp1.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6C362D7F2705B578006BE4E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6C362D812705B578006BE4E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6C362D832705B578006BE4E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6C362D862705B578006BE4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6C362D882705B57A006BE4E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6C362D8B2705B57A006BE4E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6C362D8D2705B57A006BE4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C362D942705DD75006BE4E2 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
-		6C362D962705E2AB006BE4E2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		6C826E6E270A486D003EA6B8 /* stanfordApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stanfordApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C826E71270A486D003EA6B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6C826E73270A486D003EA6B8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6C826E75270A486D003EA6B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6C826E78270A486D003EA6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C826E7A270A486E003EA6B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C826E7D270A486E003EA6B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C826E7F270A486E003EA6B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6C362D792705B578006BE4E2 /* Frameworks */ = {
+		6C826E6B270A486D003EA6B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,81 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6C362D732705B578006BE4E2 = {
+		6C826E65270A486D003EA6B8 = {
 			isa = PBXGroup;
 			children = (
-				6C362D7E2705B578006BE4E2 /* StanfordApp1 */,
-				6C362D7D2705B578006BE4E2 /* Products */,
+				6C826E70270A486D003EA6B8 /* stanfordApp2 */,
+				6C826E6F270A486D003EA6B8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6C362D7D2705B578006BE4E2 /* Products */ = {
+		6C826E6F270A486D003EA6B8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6C362D7C2705B578006BE4E2 /* StanfordApp1.app */,
+				6C826E6E270A486D003EA6B8 /* stanfordApp2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6C362D7E2705B578006BE4E2 /* StanfordApp1 */ = {
+		6C826E70270A486D003EA6B8 /* stanfordApp2 */ = {
 			isa = PBXGroup;
 			children = (
-				6C362D832705B578006BE4E2 /* ViewController.swift */,
-				6C362D942705DD75006BE4E2 /* Concentration.swift */,
-				6C362D962705E2AB006BE4E2 /* Card.swift */,
-				6C362D852705B578006BE4E2 /* Main.storyboard */,
-				6C362D8D2705B57A006BE4E2 /* Info.plist */,
-				6C362D932705DD36006BE4E2 /* Supporting files */,
+				6C826E71270A486D003EA6B8 /* AppDelegate.swift */,
+				6C826E73270A486D003EA6B8 /* SceneDelegate.swift */,
+				6C826E75270A486D003EA6B8 /* ViewController.swift */,
+				6C826E77270A486D003EA6B8 /* Main.storyboard */,
+				6C826E7A270A486E003EA6B8 /* Assets.xcassets */,
+				6C826E7C270A486E003EA6B8 /* LaunchScreen.storyboard */,
+				6C826E7F270A486E003EA6B8 /* Info.plist */,
 			);
-			path = StanfordApp1;
-			sourceTree = "<group>";
-		};
-		6C362D932705DD36006BE4E2 /* Supporting files */ = {
-			isa = PBXGroup;
-			children = (
-				6C362D7F2705B578006BE4E2 /* AppDelegate.swift */,
-				6C362D812705B578006BE4E2 /* SceneDelegate.swift */,
-				6C362D882705B57A006BE4E2 /* Assets.xcassets */,
-				6C362D8A2705B57A006BE4E2 /* LaunchScreen.storyboard */,
-			);
-			path = "Supporting files";
+			path = stanfordApp2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6C362D7B2705B578006BE4E2 /* StanfordApp1 */ = {
+		6C826E6D270A486D003EA6B8 /* stanfordApp2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6C362D902705B57A006BE4E2 /* Build configuration list for PBXNativeTarget "StanfordApp1" */;
+			buildConfigurationList = 6C826E82270A486E003EA6B8 /* Build configuration list for PBXNativeTarget "stanfordApp2" */;
 			buildPhases = (
-				6C362D782705B578006BE4E2 /* Sources */,
-				6C362D792705B578006BE4E2 /* Frameworks */,
-				6C362D7A2705B578006BE4E2 /* Resources */,
+				6C826E6A270A486D003EA6B8 /* Sources */,
+				6C826E6B270A486D003EA6B8 /* Frameworks */,
+				6C826E6C270A486D003EA6B8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StanfordApp1;
-			productName = StanfordApp1;
-			productReference = 6C362D7C2705B578006BE4E2 /* StanfordApp1.app */;
+			name = stanfordApp2;
+			productName = stanfordApp2;
+			productReference = 6C826E6E270A486D003EA6B8 /* stanfordApp2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6C362D742705B578006BE4E2 /* Project object */ = {
+		6C826E66270A486D003EA6B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					6C362D7B2705B578006BE4E2 = {
+					6C826E6D270A486D003EA6B8 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
 				};
 			};
-			buildConfigurationList = 6C362D772705B578006BE4E2 /* Build configuration list for PBXProject "StanfordApp1" */;
+			buildConfigurationList = 6C826E69270A486D003EA6B8 /* Build configuration list for PBXProject "stanfordApp2" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -123,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 6C362D732705B578006BE4E2;
-			productRefGroup = 6C362D7D2705B578006BE4E2 /* Products */;
+			mainGroup = 6C826E65270A486D003EA6B8;
+			productRefGroup = 6C826E6F270A486D003EA6B8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6C362D7B2705B578006BE4E2 /* StanfordApp1 */,
+				6C826E6D270A486D003EA6B8 /* stanfordApp2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6C362D7A2705B578006BE4E2 /* Resources */ = {
+		6C826E6C270A486D003EA6B8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C362D8C2705B57A006BE4E2 /* LaunchScreen.storyboard in Resources */,
-				6C362D892705B57A006BE4E2 /* Assets.xcassets in Resources */,
-				6C362D872705B578006BE4E2 /* Main.storyboard in Resources */,
+				6C826E7E270A486E003EA6B8 /* LaunchScreen.storyboard in Resources */,
+				6C826E7B270A486E003EA6B8 /* Assets.xcassets in Resources */,
+				6C826E79270A486D003EA6B8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6C362D782705B578006BE4E2 /* Sources */ = {
+		6C826E6A270A486D003EA6B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C362D842705B578006BE4E2 /* ViewController.swift in Sources */,
-				6C362D952705DD75006BE4E2 /* Concentration.swift in Sources */,
-				6C362D972705E2AB006BE4E2 /* Card.swift in Sources */,
-				6C362D802705B578006BE4E2 /* AppDelegate.swift in Sources */,
-				6C362D822705B578006BE4E2 /* SceneDelegate.swift in Sources */,
+				6C826E76270A486D003EA6B8 /* ViewController.swift in Sources */,
+				6C826E72270A486D003EA6B8 /* AppDelegate.swift in Sources */,
+				6C826E74270A486D003EA6B8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6C362D852705B578006BE4E2 /* Main.storyboard */ = {
+		6C826E77270A486D003EA6B8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6C362D862705B578006BE4E2 /* Base */,
+				6C826E78270A486D003EA6B8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6C362D8A2705B57A006BE4E2 /* LaunchScreen.storyboard */ = {
+		6C826E7C270A486E003EA6B8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6C362D8B2705B57A006BE4E2 /* Base */,
+				6C826E7D270A486E003EA6B8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -181,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6C362D8E2705B57A006BE4E2 /* Debug */ = {
+		6C826E80270A486E003EA6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -242,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		6C362D8F2705B57A006BE4E2 /* Release */ = {
+		6C826E81270A486E003EA6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -297,36 +281,36 @@
 			};
 			name = Release;
 		};
-		6C362D912705B57A006BE4E2 /* Debug */ = {
+		6C826E83270A486E003EA6B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StanfordApp1/Info.plist;
+				INFOPLIST_FILE = stanfordApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DemirDereli.StanfordApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = DemirDereli.stanfordApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6C362D922705B57A006BE4E2 /* Release */ = {
+		6C826E84270A486E003EA6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = StanfordApp1/Info.plist;
+				INFOPLIST_FILE = stanfordApp2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = DemirDereli.StanfordApp1;
+				PRODUCT_BUNDLE_IDENTIFIER = DemirDereli.stanfordApp2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -336,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6C362D772705B578006BE4E2 /* Build configuration list for PBXProject "StanfordApp1" */ = {
+		6C826E69270A486D003EA6B8 /* Build configuration list for PBXProject "stanfordApp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C362D8E2705B57A006BE4E2 /* Debug */,
-				6C362D8F2705B57A006BE4E2 /* Release */,
+				6C826E80270A486E003EA6B8 /* Debug */,
+				6C826E81270A486E003EA6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6C362D902705B57A006BE4E2 /* Build configuration list for PBXNativeTarget "StanfordApp1" */ = {
+		6C826E82270A486E003EA6B8 /* Build configuration list for PBXNativeTarget "stanfordApp2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6C362D912705B57A006BE4E2 /* Debug */,
-				6C362D922705B57A006BE4E2 /* Release */,
+				6C826E83270A486E003EA6B8 /* Debug */,
+				6C826E84270A486E003EA6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6C362D742705B578006BE4E2 /* Project object */;
+	rootObject = 6C826E66270A486D003EA6B8 /* Project object */;
 }
