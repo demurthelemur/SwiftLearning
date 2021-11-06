@@ -16,30 +16,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="8TT-9O-Lyg">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="901"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FYT-WA-7SB">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QvP-Oa-BOP">
-                                <rect key="frame" x="181" y="832" width="52" height="30"/>
-                                <state key="normal" title="Redraw"/>
-                                <connections>
-                                    <action selector="redrawTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G3h-bH-FwR"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="QvP-Oa-BOP" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="F3w-PX-rdp"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="8TT-9O-Lyg" secondAttribute="bottom" constant="-39" id="Fgu-jf-Kv0"/>
-                            <constraint firstItem="8TT-9O-Lyg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="R7w-Xa-lRS"/>
-                            <constraint firstItem="8TT-9O-Lyg" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="-44" id="d6Z-w1-Z6e"/>
-                            <constraint firstItem="QvP-Oa-BOP" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f0O-eN-gmV"/>
-                            <constraint firstItem="8TT-9O-Lyg" firstAttribute="centerX" secondItem="QvP-Oa-BOP" secondAttribute="centerX" id="iga-xj-w42"/>
-                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView" destination="8TT-9O-Lyg" id="ilp-Gh-qD7"/>
+                        <outlet property="imageView" destination="FYT-WA-7SB" id="ThF-Kg-MUi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

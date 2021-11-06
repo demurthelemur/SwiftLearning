@@ -18,6 +18,9 @@ class ViewController: UIViewController {
     
     @IBOutlet var flipCountLabel: UILabel!
     @IBOutlet var cardButtons: [UIButton]!
+    @IBAction func newGame(_ sender: UIButton) {
+        
+    }
     
 
     

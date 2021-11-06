@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Stanford_Project_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="iyP-wb-6QZ" customClass="PlayingCardView" customModule="Stanford_Project_2" customModuleProvider="target">
+                                <rect key="frame" x="20" y="154" width="374" height="598"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="iyP-wb-6QZ" secondAttribute="height" multiplier="5:8" id="S6C-eZ-krn"/>
+                                    <constraint firstAttribute="width" priority="750" constant="800" id="v5W-ov-Ro9"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="rank">
+                                        <integer key="value" value="12"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="iyP-wb-6QZ" secondAttribute="trailing" constant="20" id="0Sp-eF-kb5"/>
+                            <constraint firstItem="iyP-wb-6QZ" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="JCM-BJ-fMw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="iyP-wb-6QZ" secondAttribute="bottom" constant="16" id="gU7-Qf-X2I"/>
+                            <constraint firstItem="iyP-wb-6QZ" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="hj4-bJ-z32"/>
+                            <constraint firstItem="iyP-wb-6QZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="qDf-A2-Ys4"/>
+                            <constraint firstItem="iyP-wb-6QZ" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="xt5-nZ-hps"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="TmQ-u4-Syp" appends="YES" id="iAu-MR-Teq"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="playingCardView" destination="iyP-wb-6QZ" id="l7y-a3-Tqf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="TmQ-u4-Syp">
+                    <connections>
+                        <action selector="flipCard:" destination="BYZ-38-t0r" id="VBM-8R-3KQ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="116.51785714285714"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

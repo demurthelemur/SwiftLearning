@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA0FF94271F6506008959B8 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA0FF93271F6506008959B8 /* PlayingCardView.swift */; };
+		6CDA6371271DC9160050A7FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA6370271DC9160050A7FC /* AppDelegate.swift */; };
+		6CDA6373271DC9160050A7FC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA6372271DC9160050A7FC /* SceneDelegate.swift */; };
+		6CDA6375271DC9160050A7FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA6374271DC9160050A7FC /* ViewController.swift */; };
+		6CDA6378271DC9160050A7FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA6376271DC9160050A7FC /* Main.storyboard */; };
+		6CDA637A271DC9170050A7FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA6379271DC9170050A7FC /* Assets.xcassets */; };
+		6CDA637D271DC9170050A7FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA637B271DC9170050A7FC /* LaunchScreen.storyboard */; };
+		6CDA6387271DCA4A0050A7FC /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA6386271DCA4A0050A7FC /* PlayingCard.swift */; };
+		6CDA6389271DCD680050A7FC /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CDA6388271DCD680050A7FC /* PlayingCardDeck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6CA0FF93271F6506008959B8 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		6CDA636D271DC9160050A7FC /* Stanford Project 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stanford Project 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CDA6370271DC9160050A7FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CDA6372271DC9160050A7FC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CDA6374271DC9160050A7FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6CDA6377271DC9160050A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CDA6379271DC9170050A7FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6CDA637C271DC9170050A7FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CDA637E271DC9170050A7FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CDA6386271DCA4A0050A7FC /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		6CDA6388271DCD680050A7FC /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CDA636A271DC9160050A7FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CDA6364271DC9160050A7FC = {
+			isa = PBXGroup;
+			children = (
+				6CDA636F271DC9160050A7FC /* Stanford Project 2 */,
+				6CDA636E271DC9160050A7FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CDA636E271DC9160050A7FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA636D271DC9160050A7FC /* Stanford Project 2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CDA636F271DC9160050A7FC /* Stanford Project 2 */ = {
+			isa = PBXGroup;
+			children = (
+				6CA0FF93271F6506008959B8 /* PlayingCardView.swift */,
+				6CDA6386271DCA4A0050A7FC /* PlayingCard.swift */,
+				6CDA6388271DCD680050A7FC /* PlayingCardDeck.swift */,
+				6CDA6374271DC9160050A7FC /* ViewController.swift */,
+				6CDA6376271DC9160050A7FC /* Main.storyboard */,
+				6CDA6379271DC9170050A7FC /* Assets.xcassets */,
+				6CDA637E271DC9170050A7FC /* Info.plist */,
+				6CDA6385271DCA0D0050A7FC /* Supporting Files */,
+			);
+			path = "Stanford Project 2";
+			sourceTree = "<group>";
+		};
+		6CDA6385271DCA0D0050A7FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CDA637B271DC9170050A7FC /* LaunchScreen.storyboard */,
+				6CDA6372271DC9160050A7FC /* SceneDelegate.swift */,
+				6CDA6370271DC9160050A7FC /* AppDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CDA636C271DC9160050A7FC /* Stanford Project 2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CDA6381271DC9170050A7FC /* Build configuration list for PBXNativeTarget "Stanford Project 2" */;
+			buildPhases = (
+				6CDA6369271DC9160050A7FC /* Sources */,
+				6CDA636A271DC9160050A7FC /* Frameworks */,
+				6CDA636B271DC9160050A7FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stanford Project 2";
+			productName = "Stanford Project 2";
+			productReference = 6CDA636D271DC9160050A7FC /* Stanford Project 2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CDA6365271DC9160050A7FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6CDA636C271DC9160050A7FC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6CDA6368271DC9160050A7FC /* Build configuration list for PBXProject "Stanford Project 2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CDA6364271DC9160050A7FC;
+			productRefGroup = 6CDA636E271DC9160050A7FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CDA636C271DC9160050A7FC /* Stanford Project 2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CDA636B271DC9160050A7FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDA637D271DC9170050A7FC /* LaunchScreen.storyboard in Resources */,
+				6CDA637A271DC9170050A7FC /* Assets.xcassets in Resources */,
+				6CDA6378271DC9160050A7FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CDA6369271DC9160050A7FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CDA6375271DC9160050A7FC /* ViewController.swift in Sources */,
+				6CA0FF94271F6506008959B8 /* PlayingCardView.swift in Sources */,
+				6CDA6371271DC9160050A7FC /* AppDelegate.swift in Sources */,
+				6CDA6389271DCD680050A7FC /* PlayingCardDeck.swift in Sources */,
+				6CDA6387271DCA4A0050A7FC /* PlayingCard.swift in Sources */,
+				6CDA6373271DC9160050A7FC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6CDA6376271DC9160050A7FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDA6377271DC9160050A7FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CDA637B271DC9170050A7FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CDA637C271DC9170050A7FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CDA637F271DC9170050A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CDA6380271DC9170050A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CDA6382271DC9170050A7FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stanford Project 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DemirDereli.Stanford-Project-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CDA6383271DC9170050A7FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Stanford Project 2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "DemirDereli.Stanford-Project-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CDA6368271DC9160050A7FC /* Build configuration list for PBXProject "Stanford Project 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDA637F271DC9170050A7FC /* Debug */,
+				6CDA6380271DC9170050A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CDA6381271DC9170050A7FC /* Build configuration list for PBXNativeTarget "Stanford Project 2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CDA6382271DC9170050A7FC /* Debug */,
+				6CDA6383271DC9170050A7FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CDA6365271DC9160050A7FC /* Project object */;
+}
