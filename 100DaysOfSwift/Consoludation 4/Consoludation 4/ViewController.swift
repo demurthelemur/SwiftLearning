@@ -14,7 +14,8 @@ class ViewController: UIViewController {
             healthViewer.text = "Health: \(health)"
         }
     }
-    var word = "abc" //change the word
+    var wordOptions = ["iron", "serra", "pen", "england", "germany", "pencil", "tank", "tenis", "brazil", "football", "keyboard", "swift"]
+    var word = "" //change the word
     var letterCount = 0
     var wordLetters = [String]()
     
@@ -39,6 +40,9 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //select a random word at the start
+        word = wordOptions.randomElement()!
+        print(word)
         
         //create the string for word viewer
         letterCount = word.count
@@ -94,7 +98,8 @@ class ViewController: UIViewController {
         
         //Clear Button
         let clear = UIButton(type: .system)
-        clear.setTitle("SUBMIT", for: .normal)
+        clear.translatesAutoresizingMaskIntoConstraints = false
+        clear.setTitle("CLEAR", for: .normal)
         clear.layer.cornerRadius = 5
         clear.layer.borderWidth = 1
         clear.layer.borderColor = UIColor.blue.cgColor
@@ -137,7 +142,13 @@ class ViewController: UIViewController {
               currentAnswer.topAnchor.constraint(equalTo: wordViewer.bottomAnchor, constant: 40),
               currentAnswer.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor, constant: 70),
               submit.topAnchor.constraint(equalTo: currentAnswer.bottomAnchor, constant: 20),
-              submit.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor, constant: 40),
+              submit.leadingAnchor.constraint(equalTo: view.layoutMarginsGuide.leadingAnchor, constant: 30),
+              submit.heightAnchor.constraint(equalToConstant: 35),
+              submit.widthAnchor.constraint(equalToConstant: 150),
+              clear.topAnchor.constraint(equalTo: currentAnswer.bottomAnchor, constant: 20),
+              clear.leadingAnchor.constraint(equalTo: submit.trailingAnchor),
+              clear.heightAnchor.constraint(equalToConstant: 35),
+              clear.widthAnchor.constraint(equalToConstant: 150),
               buttonsView.widthAnchor.constraint(equalToConstant: 300),
               buttonsView.heightAnchor.constraint(equalToConstant: 500),
               buttonsView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -174,8 +185,22 @@ class ViewController: UIViewController {
         
     }
     
+//restarts the game
     @objc func clearTapped(){
+        str = ""
+        strArray = []
         
+        word = wordOptions.randomElement()!
+        letterCount = word.count
+        
+        print(word)
+        
+        for _ in 0..<letterCount{
+            strArray.append(" _ ")
+        }
+        
+        str = strArray.joined()
+        labelStringChanged(str)
     }
     
     func labelStringChanged(_ newValue: String){
