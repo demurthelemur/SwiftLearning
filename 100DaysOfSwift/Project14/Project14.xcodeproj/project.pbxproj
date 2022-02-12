@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C1319E727B7FCDA003F5145 /* gameOver.caf in Resources */ = {isa = PBXBuildFile; fileRef = 6C1319E627B7FCD9003F5145 /* gameOver.caf */; };
 		6C6279CA27B0466300630332 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6279C927B0466300630332 /* AppDelegate.swift */; };
 		6C6279CC27B0466300630332 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6C6279CB27B0466300630332 /* GameScene.sks */; };
 		6C6279D027B0466300630332 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C6279CF27B0466300630332 /* GameScene.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C1319E627B7FCD9003F5145 /* gameOver.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gameOver.caf; sourceTree = "<group>"; };
 		6C6279C627B0466300630332 /* Project14.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project14.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6279C927B0466300630332 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6C6279CB27B0466300630332 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				6C6279D327B0466300630332 /* Main.storyboard */,
 				6C6279D627B0466400630332 /* Assets.xcassets */,
 				6C6279D827B0466400630332 /* LaunchScreen.storyboard */,
+				6C1319E627B7FCD9003F5145 /* gameOver.caf */,
 				6C6279E227B0483700630332 /* whack.caf */,
 				6C6279E327B0483700630332 /* whackBad.caf */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C1319E727B7FCDA003F5145 /* gameOver.caf in Resources */,
 				6C6279D527B0466300630332 /* Main.storyboard in Resources */,
 				6C6279E427B0483800630332 /* whack.caf in Resources */,
 				6C6279CC27B0466300630332 /* GameScene.sks in Resources */,
